@@ -1,0 +1,76 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffc0cb; /* Baby Pink */
+}
+
+/* Container Styles */
+table {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Bell MT', serif;
+  color: #0077be; /* Ocean Blue */
+  text-align: center;
+  font-size: 1.8em;
+  margin: 20px 0;
+}
+
+/* Table Styling */
+table tr {
+  padding: 10px;
+}
+
+table td {
+  padding: 15px;
+  font-size: 1em;
+}
+
+table input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffa07a; /* Light Orange */
+}
+
+/* Button Styling */
+input[type="submit"] {
+  background-color: #0077be; /* Ocean Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005f9e;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  table td {
+    font-size: 0.9em;
+  }
+  }
